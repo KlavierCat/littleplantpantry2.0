@@ -317,3 +317,16 @@ header.masthead p {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(106, 141, 115, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(106, 141, 115, 0.5) !important;
 }
+
+.footer-copyright {
+  text-align: right;
+  padding-right: 80px;
+}
+
+.navbar-logo {
+  vertical-align: sub;
+}
+
+.navbar-tagline {
+  text-transform: lowercase;
+}
