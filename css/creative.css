@@ -409,6 +409,12 @@ header.masthead p {
 #services > .row > div {
   padding-bottom: 90px;
   padding-top: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #service-1 {
