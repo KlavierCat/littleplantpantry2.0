@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Didact Gothic', 'Helvetica Neue', Arial, sans-serif;
 }
 
 hr {
@@ -47,8 +47,8 @@ h6 {
   background-color: #6A8D73 !important;
 }
 
-.bg-dark {
-  background-color: #212529 !important;
+.bg-mint {
+  background-color: #e1f7e9 !important;
 }
 
 .text-faded {
@@ -288,7 +288,20 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #6A8D73 !important;
+  color: #414141 !important;
+}
+
+.title-primary {
+  color: #6f5c68 !important;
+}
+
+.text-white-primary {
+  color: #fffdf7 !important;
+}
+
+.text-dark-purple {
+  color: #434156 !important;
+  font-family: 'Lato', sans-serif;
 }
 
 .btn {
@@ -319,8 +332,9 @@ header.masthead p {
 }
 
 .footer-copyright {
-  text-align: right;
-  padding-right: 80px;
+  padding-left: 15px;
+  margin: 120px 0 0 0;
+  padding-bottom: 20px;
 }
 
 .navbar-logo {
@@ -329,4 +343,82 @@ header.masthead p {
 
 .navbar-tagline {
   text-transform: lowercase;
+}
+
+.header-text {
+  margin-top: 30px;
+}
+
+.motto {
+/*  margin: 60px;*/
+  margin-bottom: 180px;
+}
+
+.header-address {
+  margin-top: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#header-logo {
+  width: 300px;
+}
+
+#header-address {
+  font-weight: bold;
+/*  text-decoration: underline;*/
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 992px) {
+  header.masthead {
+    padding-top: 0;
+  }
+  .header-motto {
+    display: none;
+  }
+  .motto {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #header-address {
+    font-size: 1.5rem;
+  }
+}
+
+#contact {
+  background-image: url(../img/footer_paper_texture.png);
+  background-repeat:repeat;
+  padding: 40px 0 0 0;
+}
+
+.footer-contact {
+  padding-top: 20px;
+}
+
+#services {
+  padding: 0;
+}
+
+#services * h5 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+#services > .row > div {
+  padding-bottom: 90px;
+  padding-top: 40px;
+}
+
+#service-1 {
+  background-image: url(../img/grid_image_1.jpg);
+}
+
+#service-2 {
+  background-image: url(../img/grid_image_2.jpg);
+}
+
+#service-3 {
+  background-image: url(../img/grid_image_3.jpg);
 }
