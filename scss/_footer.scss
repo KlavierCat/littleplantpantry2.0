@@ -1,0 +1,17 @@
+.footer-section {
+  background-image: url(../img/footer_paper_texture.jpg);
+  background-repeat:repeat;
+  padding: 40px 0 0 0;
+  color: $white;
+  
+  .footer-copyright {
+    padding-left: 15px;
+    margin: 120px 0 0 0;
+    padding-bottom: 20px;
+  }
+  
+  .footer-contact {
+    padding-top: 20px;
+  }
+}
+

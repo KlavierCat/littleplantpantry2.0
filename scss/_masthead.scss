@@ -5,24 +5,42 @@ header.masthead {
   background-image: url('../img/header.jpg');
   background-position: center center;
   @include background-cover;
-  hr {
+  .container {
     margin-top: 30px;
-    margin-bottom: 30px;
   }
   h1 {
     font-size: 2rem;
+    color: $dark-purple;
+    font-family: 'Lato', sans-serif;
+    margin-top: 90px;
   }
   p {
     font-weight: 300;
   }
+  #header-logo {
+    width: 300px;
+  }
+  #header-address {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }  
+  .header-motto {
+    padding-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: $white;
+  }
+  
   @media (min-width: 768px) {
     p {
       font-size: 1.15rem;
     }
+    #header-address {
+      font-size: 1.5rem;
+    }
   }
   @media (min-width: 992px) {
-    height: 100vh;
-    min-height: 650px;
+    height: 500px;
+    min-height: 450px;
     padding-top: 0;
     padding-bottom: 0;
     h1 {
@@ -32,6 +50,13 @@ header.masthead {
   @media (min-width: 1200px) {
     h1 {
       font-size: 4rem;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    padding-top: 0;
+    .header-motto {
+      display: none;
     }
   }
 }

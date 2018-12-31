@@ -2,3 +2,41 @@
 .service-box {
   max-width: 400px;
 }
+
+#services {
+  padding: 0;
+  
+  h5 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+    
+    > div {
+      padding-bottom: 90px;
+      padding-top: 40px;
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+  }
+}
+
+#service-1 {
+  background-image: url(../img/grid_image_1.jpg);
+}
+
+#service-2 {
+  background-image: url(../img/grid_image_2.jpg);
+}
+
+#service-3 {
+  background-image: url(../img/grid_image_3.jpg);
+}
+
