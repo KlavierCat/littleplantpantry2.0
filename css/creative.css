@@ -349,13 +349,12 @@ header.masthead p {
   margin-top: 30px;
 }
 
-.motto {
-/*  margin: 60px;*/
-  margin-bottom: 180px;
+.header-break {
+  margin-bottom: 90px;
 }
 
-.header-address {
-  margin-top: 30px;
+.header-motto {
+  padding-top: 20px;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -365,7 +364,6 @@ header.masthead p {
 
 #header-address {
   font-weight: bold;
-/*  text-decoration: underline;*/
   font-size: 1.2rem;
 }
 
@@ -427,4 +425,9 @@ header.masthead p {
 
 #service-3 {
   background-image: url(../img/grid_image_3.jpg);
+}
+
+#header-background {
+  min-height: 450px;
+  height: 500px;
 }
