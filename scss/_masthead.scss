@@ -20,7 +20,7 @@ header.masthead {
   #header-logo {
     width: 300px;
   }
-  #header-address {
+  #header-address, #header-opening-time {
     font-weight: bold;
     font-size: 1.2rem;
   }  
@@ -34,7 +34,7 @@ header.masthead {
     p {
       font-size: 1.15rem;
     }
-    #header-address {
+    #header-address, #header-opening-time {
       font-size: 1.5rem;
     }
   }
