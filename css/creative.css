@@ -141,6 +141,16 @@ header.masthead .header-motto {
   background-size: cover;
 }
 
+#services .row > div a {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#services .row > div a:focus, #services .row > div a:hover {
+  color: #6f5c68 !important;
+}
+
 #service-1 {
   background-image: url(../img/grid_image_1.jpg);
 }

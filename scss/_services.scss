@@ -24,6 +24,16 @@
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+      
+      a  {
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 18px;
+        &:focus,
+        &:hover {
+          color: $black !important;
+        }
+      }
     }
   }
 }
